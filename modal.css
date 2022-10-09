@@ -63,29 +63,31 @@ body{
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: #fff;
-  width: 450px;
-  height: 220px;
+  width: 700px;
+  height: 400px;
   z-index: 2;
   text-align: center;
-  padding: 20px;
+  padding: 140px;
   box-sizing: border-box;
   border-radius: 8px;
+  font-size: xx-large
+
 }
 
 .popup .close-btn {
   position: absolute;
   right: 20px;
-  top: 20px;
-  width: 30px;
-  height: 30px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
   background: #e92e3d;
   color: #fff;
-  font-size: 25px;
   font-weight: 600;
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
+  font-size: xx-large
 }
 
 .popup.active .overlay{
